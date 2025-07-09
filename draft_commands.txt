@@ -1,0 +1,5 @@
+mlflow models serve \
+        --model-uri '/home/ubuntu/MLflow_Course/mlruns/864063752250630287/4bdc560e8b47457c806ad22d3cdcc694/artifacts/rf_apples' \
+        --port 5002 \
+        --host 0.0.0.0 \
+        --env-manager local
